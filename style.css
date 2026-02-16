@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
@@ -14,26 +17,26 @@ header{
 footer{
     background-image: linear-gradient(45deg, lightsalmon, tomato);
 }
-fieldset{
+/* fieldset{
     border: 2px solid orange;
-}
+} */
 legend{
     text-align: center;
     color: orange;
 }
 table{
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     margin: 20px;
 }
 /* caption{
     font-size: 20px;
     color: orange;
 } */
-tr,td,th{
+/* tr,td,th{
     border: 2px solid orange;
     border-radius: 5px;
     padding: 10px;
-}
+} */
 table tr td a{
     text-decoration: none;
     color: black;
@@ -41,14 +44,22 @@ table tr td a{
 table tr td a:hover{
     color: orangered;
 }
-table tr td a mark{
+/* table tr td a mark{
     background-color: orange;
-}
+} */
 table mark:hover{
     background-color: white;
     color: orangered;
 }
-table tr td a abbr{
+/* table tr td a abbr{
     text-decoration: none;
     cursor: pointer;
+} */
+#greeting,#name,h3{
+    color: red;
+    font-size: large;
 }
+.nav-1{
+    display: left;
+}
+
