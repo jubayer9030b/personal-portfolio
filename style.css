@@ -12,30 +12,25 @@ body{
     font-style: normal;
 }
 header{
+    /* overflow: hidden; */
     background-image: linear-gradient(45deg, lightsalmon, tomato);
 }
 footer{
     background-image: linear-gradient(45deg, lightsalmon, tomato);
 }
-/* fieldset{
-    border: 2px solid orange;
-} */
+fieldset{
+    border: 2px solid #dee2e6 !important;
+    border-radius: 8px;
+}
 legend{
+    font-weight: bold;
+    font-size: 1.2rem;
     text-align: center;
     color: orange;
-}
-table{
-    /* border-collapse: collapse; */
-    margin: 20px;
 }
 /* caption{
     font-size: 20px;
     color: orange;
-} */
-/* tr,td,th{
-    border: 2px solid orange;
-    border-radius: 5px;
-    padding: 10px;
 } */
 table tr td a{
     text-decoration: none;
@@ -44,22 +39,16 @@ table tr td a{
 table tr td a:hover{
     color: orangered;
 }
-/* table tr td a mark{
-    background-color: orange;
-} */
+
 table mark:hover{
     background-color: white;
     color: orangered;
 }
-/* table tr td a abbr{
-    text-decoration: none;
-    cursor: pointer;
-} */
 #greeting,#name,h3{
     color: red;
     font-size: large;
 }
-.nav-1{
+/* .nav-1{
     display: left;
-}
+} */
 
